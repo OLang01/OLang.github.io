@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* googlefonts 'Noto Sans KR' */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+*{outline: none !important;}
+html, body, ul, li , ol, h1,h2,h3,h4,h5,h6,p,header,nav,main,section,p,div, address,footer,menu,hr,dl,dt,dd,table,thead,tbody,tfoot,input,button,textarea,figure,figcaption,form,fieldset,legend{
+  margin: 0; padding:0;
+}
+input,select,textarea,button{
+  border: none;
+  color: #333;
+}
+body{
+  font-family: 'Noto Sans KR', sans-serif;
+  min-width:320px;/*모바일*/
+  word-wrap: break-word;/*가로영역을 넘치는 단어에 분리할때 어떻게 처리할지(띄어쓰기 하지 않아도 줄바꿈됨*/
+  line-height: 1.2;
+}
+body,button,a,input,textarea,select{font-family: 'Noto Sans KR', sans-serif;}
+a{text-decoration: none; color:#333}
+address,em{
+  font-style: normal;
+  font-weight: normal;
+}
+ul, li , ol{list-style: none;}
+img{
+  vertical-align: top;
+}
