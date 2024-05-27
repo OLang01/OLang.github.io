@@ -213,8 +213,9 @@ footer p{font-size:1.6rem;text-align: center;color:#fff}
   }
   nav ul{display: none;}
   /* main */
+  .main{margin:0 5vw;}
   .main strong,.main .flow-wrap{font-size: 7rem;}
-  .main p,.main p strong{font-size:2rem;line-height: 4rem;}
+  .main p,.main p strong{font-size:2rem;line-height: 4rem;word-break: keep-all;}
   .main .flow-text{top:46%}
   /* about */
   #about{flex-direction: column;}
